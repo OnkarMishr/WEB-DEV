@@ -50,7 +50,7 @@
   width: 70%;
   height: 90%;
   margin-top: 2rem;
-  background-image: url(../Images/simon-de-vries-UQluWXKUn7A-unsplash.jpg);
+  background-image: url("https://images.unsplash.com/photo-1655669832303-58be6a0e42ad?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fEx1aXNlbnBsYXR6JTIwRGFybXN0YWR0fGVufDB8fDB8fHww");
   background-size: cover;
   background-position: 0 -380px;
   background-repeat: no-repeat;
