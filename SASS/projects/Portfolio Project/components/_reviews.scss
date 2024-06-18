@@ -1,0 +1,88 @@
+.clients{
+    height: 100vh;
+    margin-top: 12rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 60px;
+
+    .title{
+        color: #fff;
+        font-family: $main-font;
+        font-size: 4rem;
+        font-weight: normal;
+        align-self: flex-end;
+        span{
+            background: $label-color;
+        }
+    }
+
+    .cards-container{
+        margin-top: 5rem;
+        
+        .cards{
+            display: flex;
+            margin-right: -80px;
+            
+            
+
+            .card{
+                margin-right: 20px;
+                background: #2b252e;
+                color: #fff;
+                padding: 40px;
+                height: 300px;
+                width: 350px;
+
+                .card-info{
+                    font-family: $primary-font;
+                    line-height: 1.7;
+                    font-weight: 350;
+                }
+
+                .user-info{
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+
+                    .user-img{
+                        background: #000;
+                        width: 50px;
+                        height: 50px;
+                        margin-right: 20px;
+                        border-radius: 100%;
+                    }
+
+                    .user-img-one{
+                        background: url(../Images/clients/alex-mccarthy-RGKdWJOUFH0-unsplash.jpg);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: top;
+                    }
+                    .user-img-two{
+                        background: url(../Images/clients/ali-morshedlou-WMD64tMfc4k-unsplash.jpg);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: top;
+                    }
+                    .user-img-three{
+                        background: url(../Images/clients/nasik-lababan-AY2dgFfdqVk-unsplash.jpg);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                    }
+
+                    
+
+                    .user-handle{
+                        font-family: $primary-font;
+                        font-weight: 300;
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,41 @@
+footer{
+    background: darken($label-color,60%);
+    .footer-container{
+        color: #fff;
+        height: 50vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        padding-bottom: 70px;
+
+        h3{
+            font-family: $main-font;
+            font-size: 2rem;
+        }
+
+        .portfolio-content{
+            width: 400px;
+
+            .content{
+                line-height: 1.5;
+                font-family: $primary-font;
+            }
+        }
+
+        .about-company{
+            width: 30%;
+            display: flex;
+            justify-content: space-evenly;
+
+            .company{
+                .b-text{
+                    transform: translateY(-40px);
+                }
+                .a-text{
+                    margin-top: 20px;
+                    font-family: $primary-font;
+                }
+            }
+        }
+    }
+}
